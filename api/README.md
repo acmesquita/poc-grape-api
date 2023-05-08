@@ -1,24 +1,30 @@
-# README
+## POC Grap API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Getting starting
 
-Things you may want to cover:
+#### Dependencies
 
-* Ruby version
+- Ruby 3+
+- Rails 7
 
-* System dependencies
+#### Install dependences
 
-* Configuration
+```
+bundle install
+```
 
-* Database creation
+#### Start application
 
-* Database initialization
+```
+rails server
+```
 
-* How to run the test suite
+#### Testing
 
-* Services (job queues, cache servers, search engines, etc.)
+In browser: http://localhost:3000/api/hello?name=Catharina
 
-* Deployment instructions
+Return:
 
-* ...
+```json
+{"msg":"Hello Catharina"}
+```
