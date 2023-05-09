@@ -1,4 +1,6 @@
-## POC Grap API
+## POC Grape API - Hello World
+
+This is a example to hello world with Grape.
 
 ### Getting starting
 
