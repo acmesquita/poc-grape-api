@@ -1,6 +1,6 @@
-## POC Grape API - Hello World
+## POC Grape API - Docs
 
-This is a example to hello world with Grape.
+This is a example to documentation with Grape and Swagger.
 
 ### Getting starting
 
@@ -23,10 +23,8 @@ rails server
 
 #### Testing
 
-In browser: http://localhost:3000/api/hello?name=Catharina
+In browser: http://localhost:3000/api-docs
 
 Return:
 
-```json
-{"msg":"Hello Catharina"}
-```
+

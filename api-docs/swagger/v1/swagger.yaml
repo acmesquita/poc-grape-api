@@ -1,0 +1,33 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/hello":
+    get:
+      summary: hello
+      tags:
+      - hello
+      parameters:
+      - name: name
+        in: query
+        schema:
+          type: string
+      responses:
+        '200':
+          description: hello world
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  msg:
+                    type: string
+                required:
+                - name
+servers:
+- url: https://{defaultHost}
+  variables:
+    defaultHost:
+      default: www.example.com
